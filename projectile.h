@@ -23,6 +23,20 @@ public:
 	float cx, cy;
 	unsigned lifetime;
 
+	PROJECTILE(PROJECTILE_TYPE _type, const vector2<float>& _vec_dir, const vector2<float>& _vec_pos, COLL_LAYER _collision_layer, COLL_LAYER _collision_mask) :
+		COLL_RECT(_vec_pos, { 20.f, 20.f }, (int)_collision_layer, (int)_collision_mask)
+	{
+		type = _type;
+		speed = projectile_speed[(int)type];
+		vec_pos = _vec_pos;
+		vec_dir = _vec_dir;
+		vec_vel = vec_dir * speed;
+		angle = atan2(vec_vel.y, vec_vel.x);
+		lifetime = projectile_lifetime[(int)type];
+		cx = al_get_bitmap_width(projectile_bitmaps[(int)type]) / 2;
+		cy = al_get_bitmap_height(projectile_bitmaps[(int)type]) / 2;
+	}
+
 	PROJECTILE(PROJECTILE_TYPE _type, const vector2<float>& _vec_dir, const vector2<float>& _vec_pos) :
 		COLL_RECT(_vec_pos, { 20.f, 20.f }, (int)COLL_LAYER::PLAYER_BULLET, (int)COLL_LAYER::ENEMY)
 	{

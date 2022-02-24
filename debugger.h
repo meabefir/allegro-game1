@@ -7,7 +7,8 @@
 enum class FIELD_TYPE {
 	INT,
 	FLOAT,
-	DOUBLE
+	DOUBLE,
+	VECTOR2
 };
 
 class DEBUGGER {

@@ -1,39 +1,36 @@
-﻿  Game1.cpp
-  Note: including file: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ctime
+﻿  enemy.cpp
+  Note: including file: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream
   Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals_core.h
   Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h
   Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sal.h
   Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\concurrencysal.h
   Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vadefs.h
   Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xkeycheck.h
-  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h
-  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h
-  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h
-  Note: including file: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h
-  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new_debug.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new.h
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\crtdefs.h
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\use_ansi.h
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdlib
-  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\math.h
-  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h
-  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h
-  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h
-  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h
-  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h
-  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtr1common
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.h
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.inl.h
-  Note: including file: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream
   Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream
   Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream
   Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ios
   Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocnum
   Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\climits
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h
+  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h
+  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new_debug.h
+  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\crtdefs.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\use_ansi.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdlib
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\math.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h
+  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtr1common
+  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.h
+  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.inl.h
   Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdio
   Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h
   Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h
@@ -55,6 +52,7 @@
   Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wio.h
   Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_share.h
   Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wprocess.h
+  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h
   Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys/stat.h
   Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys/types.h
   Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef
@@ -90,6 +88,8 @@
   Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic
   Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xthreads.h
   Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtimec.h
+  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ctime
+  Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h
   Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale
   Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory
   Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\typeinfo
@@ -101,136 +101,22 @@
   Note: including file:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\ctype.h
   Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\clocale
   Note: including file:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\locale.h
-  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\alllegro.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro5.h
-  Note: including file:   C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5\allegro.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/base.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdarg.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/internal/alconfig.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/alplatf.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/almsvc.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\io.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_io.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\fcntl.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\direct.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/alplatf.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/astdint.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\inttypes.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/astdbool.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/altime.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/bitmap.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/color.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/bitmap_draw.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/bitmap_io.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/file.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/path.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/utf8.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/bitmap_lock.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/blender.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/clipboard.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/display.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/events.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/config.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/cpu.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/debug.h
-  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/drawing.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/error.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/fixed.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/fmaths.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/inline/fmaths.inl
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/fshook.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/fullscreen_mode.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/haptic.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/joystick.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/keyboard.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/keycodes.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/mouse.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/touch_input.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/memory.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/monitor.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/mouse_cursor.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/render_state.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/shader.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/transformations.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/system.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/threads.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/timer.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/tls.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/alcompat.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/alwin.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_font.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_primitives.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_audio.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_acodec.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_image.h
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\unordered_map
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xhash
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xbit_ops.h
-  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\random.h
-  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\setup.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\common.h
-  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\player.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\camera.h
-  Note: including file:   C:\Users\Strut\source\repos\Game1\Game1\vector2.h
-  Note: including file:   C:\Users\Strut\source\repos\Game1\Game1\debugger.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string
-  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\animation_player.h
-  Note: including file:   C:\Users\Strut\source\repos\Game1\Game1\bitmap_manager.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\helper.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\mouse.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\projectile_manager.h
-  Note: including file:   C:\Users\Strut\source\repos\Game1\Game1\projectile.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\Game1\collidable.h
-  Note: including file:   C:\Users\Strut\source\repos\Game1\Game1\blender_manager.h
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm
-C:\Users\Strut\source\repos\Game1\Game1\projectile_manager.h(45,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\collision_manager.h
-  collidable.cpp
-  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\collidable.h
+  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\enemy.h
   Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\alllegro.h
   Note: including file:   C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro5.h
   Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5\allegro.h
   Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/base.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h
-  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h
-  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sal.h
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\concurrencysal.h
-  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vadefs.h
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h
   Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdarg.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h
-  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys/types.h
   Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/internal/alconfig.h
   Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/alplatf.h
   Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/almsvc.h
   Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\io.h
   Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_io.h
-  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_share.h
-  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wio.h
   Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\fcntl.h
   Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\direct.h
-  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wdirect.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\malloc.h
   Note: including file:        C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/alplatf.h
   Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/astdint.h
   Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\inttypes.h
-  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h
   Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/astdbool.h
   Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/altime.h
   Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/bitmap.h
@@ -280,273 +166,15 @@ C:\Users\Strut\source\repos\Game1\Game1\projectile_manager.h(45,1): warning C426
   Note: including file:   C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_acodec.h
   Note: including file:   C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_image.h
   Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals_core.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xkeycheck.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdint
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdlib
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\math.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cfloat
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\float.h
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\climits
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cwchar
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdio
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h
-  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h
-  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\wchar.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wconio.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wctype.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wprocess.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys/stat.h
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.h
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.inl.h
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\isa_availability.h
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstddef
-  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtr1common
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\new
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\exception
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h
-  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new_debug.h
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new.h
-  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\crtdefs.h
-  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\use_ansi.h
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_exception.h
-  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\eh.h
-  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xatomic.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstring
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility
   Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\unordered_map
   Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xhash
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath
   Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list
   Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple
   Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xbit_ops.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd
   Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\vector2.h
   Note: including file:   C:\Users\Strut\source\repos\Game1\Game1\common.h
-  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\collision_manager.h
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ios
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocnum
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iterator
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\streambuf
-  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xiosbase
-  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\share.h
-  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\system_error
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\__msvc_system_error_abi.hpp
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cerrno
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdexcept
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xcall_once.h
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xerrc.h
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic
-  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xthreads.h
-  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtimec.h
-  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ctime
-  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory
-  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\typeinfo
-  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_typeinfo.h
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xfacet
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocinfo
-  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocinfo.h
-  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cctype
-  Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\ctype.h
-  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\clocale
-  Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\locale.h
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm
-  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\debugger.h
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string
-  collision_manager.cpp
-  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\collision_manager.h
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals_core.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\sal.h
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\concurrencysal.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vadefs.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xkeycheck.h
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdint
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdlib
-  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\math.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h
-  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\limits
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cfloat
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\float.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\climits
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cwchar
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstdio
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h
-  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\wchar.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h
-  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wconio.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wctype.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wdirect.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wio.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_share.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wprocess.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys/stat.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys/types.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.h
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\intrin0.inl.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\isa_availability.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstddef
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstddef
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtr1common
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\new
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\exception
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h
-  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new_debug.h
-  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_new.h
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\crtdefs.h
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\use_ansi.h
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\malloc.h
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_exception.h
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\eh.h
-  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xatomic.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cstring
-  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\istream
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ios
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocnum
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iterator
-  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iosfwd
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\streambuf
-  Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xiosbase
-  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\share.h
-  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\system_error
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\__msvc_system_error_abi.hpp
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cerrno
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdexcept
-  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xcall_once.h
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xerrc.h
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic
-  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xthreads.h
-  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xtimec.h
-  Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ctime
-  Note: including file:              C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h
-  Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocale
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory
-  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\typeinfo
-  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_typeinfo.h
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xfacet
-  Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocinfo
-  Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xlocinfo.h
-  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cctype
-  Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\ctype.h
-  Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\clocale
-  Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\locale.h
-  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\algorithm
-  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\debugger.h
-  Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string
-  Note: including file:   C:\Users\Strut\source\repos\Game1\Game1\alllegro.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro5.h
-  Note: including file:     C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5\allegro.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/base.h
-  Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdarg.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/internal/alconfig.h
-  Note: including file:        C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/alplatf.h
-  Note: including file:        C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/almsvc.h
-  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\io.h
-  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_io.h
-  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\fcntl.h
-  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\direct.h
-  Note: including file:         C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/alplatf.h
-  Note: including file:        C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/astdint.h
-  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\inttypes.h
-  Note: including file:        C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/astdbool.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/altime.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/bitmap.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/color.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/bitmap_draw.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/bitmap_io.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/file.h
-  Note: including file:        C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/path.h
-  Note: including file:         C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/utf8.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/bitmap_lock.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/blender.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/clipboard.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/display.h
-  Note: including file:        C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/events.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/config.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/cpu.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/debug.h
-  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/drawing.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/error.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/fixed.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/fmaths.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/inline/fmaths.inl
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/fshook.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/fullscreen_mode.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/haptic.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/joystick.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/keyboard.h
-  Note: including file:        C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/keycodes.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/mouse.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/touch_input.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/memory.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/monitor.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/mouse_cursor.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/render_state.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/shader.h
-  Note: including file:       C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/transformations.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/system.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/threads.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/timer.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/tls.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/alcompat.h
-  Note: including file:      C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/platform/alwin.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_font.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_primitives.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_audio.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_acodec.h
-  Note: including file:    C:\Users\Strut\source\repos\Game1\packages\Allegro.5.2.7.1\build\native\include\allegro5/allegro_image.h
-  Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\unordered_map
-  Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xhash
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\tuple
-  Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xbit_ops.h
-  Note: including file:   C:\Users\Strut\source\repos\Game1\Game1\common.h
-  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\collidable.h
-  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\vector2.h
-C:\Users\Strut\source\repos\Game1\Game1\collision_manager.cpp(24,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
+  Note: including file:  C:\Users\Strut\source\repos\Game1\Game1\collidable.h
+  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\bitmap_manager.h
+  Note: including file: C:\Users\Strut\source\repos\Game1\Game1\debugger.h
+  Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\string
   Game1.vcxproj -> C:\Users\Strut\source\repos\Game1\x64\Debug\Game1.exe

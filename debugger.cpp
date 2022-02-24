@@ -1,4 +1,5 @@
 #include "debugger.h"
+#include "vector2.h"
 
 DEBUGGER* DEBUGGER::instance = nullptr;
 
@@ -40,6 +41,12 @@ void DEBUGGER::draw() {
 		case FIELD_TYPE::DOUBLE:
 			text += std::to_string((*(double*)(field.second.second)));
 			break;
+		case FIELD_TYPE::VECTOR2:
+		{
+			vector2<float> _vec = (*(vector2<float>*)(field.second.second));
+			text += std::to_string(_vec.x) + " " + std::to_string(_vec.y);
+			break;
+		}
 		default:
 			break;
 		}

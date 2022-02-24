@@ -10,6 +10,8 @@
 #include "debugger.h"
 #include "collision_manager.h"
 
+#include "enemy.h"
+
 #define USE_DEBUG 1
 
 using namespace std;
@@ -70,8 +72,14 @@ int main()
     al_register_event_source(queue, al_get_timer_event_source(framerate_timer));
     al_register_event_source(queue, al_get_timer_event_source(physics_timer));
 
+    ///////////////// tmp
     debugger->add_field("frame time:", FIELD_TYPE::DOUBLE, &delta_time);
     ALLEGRO_BITMAP* background = al_load_bitmap("assets/background.jpg");
+
+    ENEMY enemies[] = { { {-100, -100} }, { { 100, 100 } } };
+    int enemy_count = 2;
+
+    ////////////////////////////////////////
 
     ///
     CAMERA* camera = new CAMERA(BUFFER_W, BUFFER_H);
@@ -94,6 +102,11 @@ int main()
                 // game loop
                 delta_time = al_get_time() - current_time;
                 current_time = al_get_time();
+
+                ////// tmp
+                for (int i = 0; i < enemy_count; i++)
+                    enemies[i].update();
+                //////
 
                 player->update();
                 projectile_manager->update();
@@ -132,6 +145,12 @@ int main()
                     al_draw_bitmap(background, j * 800, i * 800, 0);
                 }
             }
+
+            ////// tmp
+            for (int i = 0; i < enemy_count; i++)
+                enemies[i].draw();
+            //////
+
             player->draw();
             projectile_manager->draw();
             camera->draw();

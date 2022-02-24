@@ -42,6 +42,9 @@ public:
 		animation_player.add_animation(SPRITE_NAME::PLAYER_IDLE, .5);
 		animation_player.add_animation(SPRITE_NAME::PLAYER_RUN, .5);
 		animation_player.add_animation(SPRITE_NAME::PLAYER_SHOOT, .13, false);
+
+		// debug info
+		debugger->add_field("player pos", FIELD_TYPE::VECTOR2, &vec_pos);
 	}
 	~PLAYER() {
 		

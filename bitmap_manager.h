@@ -1,5 +1,6 @@
 #pragma once
 #include <unordered_map>
+#include "alllegro.h"
 
 using namespace std;
 
@@ -8,6 +9,7 @@ enum class SPRITE_NAME {
 	PLAYER_IDLE = 0,
 	PLAYER_RUN,
 	PLAYER_SHOOT,
+	ENEMY,
 	N_SPRITES
 };
 
@@ -18,48 +20,15 @@ private:
 	unordered_map<SPRITE_NAME, ALLEGRO_BITMAP*> bitmaps;
 	vector<string> sprite_paths;
 private:
-	BITMAP_MANAGER() {
-		init();
-	}
-	void init() {
-		sprite_paths.resize((int)SPRITE_NAME::N_SPRITES);
-		sprite_paths[(int)SPRITE_NAME::PLAYER_IDLE] = "assets/spritesheets/ranged_bot/run.png";
-		sprite_paths[(int)SPRITE_NAME::PLAYER_RUN] = "assets/spritesheets/ranged_bot/run.png";
-		sprite_paths[(int)SPRITE_NAME::PLAYER_SHOOT] = "assets/spritesheets/ranged_bot/shoot.png";
-	}
+	BITMAP_MANAGER();
+	void init();
 public:
-	static BITMAP_MANAGER* get_instance() {
-		if (instance == nullptr)
-			instance = new BITMAP_MANAGER();
-		return instance;
-	}
-	static void delete_instance() {
-		delete instance;
-		instance = nullptr;
-	}
+	static BITMAP_MANAGER* get_instance();
+	static void delete_instance();
 
-	void clear() {
-		for (auto& per : bitmaps) {
-			if (per.second == nullptr)
-				continue;
-			al_destroy_bitmap(per.second);
-		}
-	}
+	void clear();
 
-	ALLEGRO_BITMAP* get_bitmap(SPRITE_NAME _name) {
-		if (bitmaps.find(_name) != bitmaps.end()) {
-			return bitmaps[_name];
-		}
-		else {
-			const char* path = sprite_paths[(int)_name].c_str();
-			ALLEGRO_BITMAP* new_bitmap = al_load_bitmap(path);
-			must_init(new_bitmap, "loading bitmap from bitmap manager");
-			bitmaps[_name] = new_bitmap;
-			return new_bitmap;
-		}
-	}
+	ALLEGRO_BITMAP* get_bitmap(SPRITE_NAME _name);
 };
-
-BITMAP_MANAGER* BITMAP_MANAGER::instance = nullptr;
 
 #define bitmap_manager BITMAP_MANAGER::get_instance()
