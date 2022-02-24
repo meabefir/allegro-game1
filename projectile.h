@@ -74,17 +74,18 @@ public:
 	void collide_with(COLLIDABLE* _coll) {
 		COLLIDABLE::collide_with(_coll);
 
+		std::cout << "hit\n";
 	}
 };
 
 void init_projectiles() {
 	must_init(projectile_bitmaps[(int)PROJECTILE_TYPE::LASER_RED] = al_load_bitmap("assets/projectiles/laser_red.png"), "laser_red");
 	projectile_speed[(int)PROJECTILE_TYPE::LASER_RED] = 1200.f / FRAMERATE;
-	projectile_lifetime[(int)PROJECTILE_TYPE::LASER_RED] = 32 * FRAMERATE;
+	projectile_lifetime[(int)PROJECTILE_TYPE::LASER_RED] = 3 * FRAMERATE;
 	projectile_scale[(int)PROJECTILE_TYPE::LASER_RED] = .25;
 
 	must_init(projectile_bitmaps[(int)PROJECTILE_TYPE::LASER_PURPLE] = al_load_bitmap("assets/projectiles/laser_purple.png"), "laser_red");
 	projectile_speed[(int)PROJECTILE_TYPE::LASER_PURPLE] = 600.f / FRAMERATE;
-	projectile_lifetime[(int)PROJECTILE_TYPE::LASER_PURPLE] = 32 * FRAMERATE;
+	projectile_lifetime[(int)PROJECTILE_TYPE::LASER_PURPLE] = 3 * FRAMERATE;
 	projectile_scale[(int)PROJECTILE_TYPE::LASER_PURPLE] = .25;
 }

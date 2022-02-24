@@ -72,12 +72,12 @@ int main()
     al_register_event_source(queue, al_get_timer_event_source(framerate_timer));
     al_register_event_source(queue, al_get_timer_event_source(physics_timer));
 
-    ///////////////// tmp
+    //////////////////////////////////// TMP
     debugger->add_field("frame time:", FIELD_TYPE::DOUBLE, &delta_time);
     ALLEGRO_BITMAP* background = al_load_bitmap("assets/background.jpg");
 
     vector<ENEMY*> enemies;
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 50; i++) {
         enemies.push_back(new ENEMY({ (float)i * 20, (float)i * 20 }));
     }
 
