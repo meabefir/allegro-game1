@@ -14,9 +14,10 @@ enum class COLL_LAYER {
 class COLLIDABLE {
 public:
 	bool dead = false;
-protected:
 	int collision_layer;
 	int collision_mask;
+
+	std::unordered_map<COLLIDABLE*, bool> collided_with;
 
 public:
 	COLLIDABLE();
@@ -26,8 +27,13 @@ public:
 		dead = true;
 	}
 
+	bool can_collide_with(COLLIDABLE* _coll) {
+		return (collided_with.find(_coll) == collided_with.end());
+	}
+
 	virtual void draw() = 0;
 	virtual bool collides_with(COLLIDABLE*) = 0;
+	virtual void collide_with(COLLIDABLE*) = 0;
 };
 
 class COLL_RECT: public COLLIDABLE {

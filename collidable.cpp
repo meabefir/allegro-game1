@@ -19,6 +19,9 @@ COLLIDABLE::~COLLIDABLE() {
 	// std::cout << "collidable destr\n";
 }
 
+void COLLIDABLE::collide_with(COLLIDABLE* _coll) {
+	collided_with[_coll] = true;
+}
 
 
 

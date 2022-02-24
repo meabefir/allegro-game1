@@ -20,3 +20,7 @@ void ENEMY::draw() {
 
 	COLL_RECT::draw();
 }
+
+void ENEMY::collide_with(COLLIDABLE*) {
+	
+}

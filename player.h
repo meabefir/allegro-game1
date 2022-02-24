@@ -41,7 +41,7 @@ public:
 		// adaug animatie in animation player
 		animation_player.add_animation(SPRITE_NAME::PLAYER_IDLE, .5);
 		animation_player.add_animation(SPRITE_NAME::PLAYER_RUN, .5);
-		animation_player.add_animation(SPRITE_NAME::PLAYER_SHOOT, .13, false);
+		animation_player.add_animation(SPRITE_NAME::PLAYER_SHOOT, .013, false);
 
 		// debug info
 		debugger->add_field("player pos", FIELD_TYPE::VECTOR2, &vec_pos);
@@ -211,4 +211,7 @@ public:
 		COLL_RECT::draw();
 	}
 
+	void collide_with(COLLIDABLE* _coll) {
+
+	}
 };

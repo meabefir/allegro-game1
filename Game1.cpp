@@ -76,8 +76,10 @@ int main()
     debugger->add_field("frame time:", FIELD_TYPE::DOUBLE, &delta_time);
     ALLEGRO_BITMAP* background = al_load_bitmap("assets/background.jpg");
 
-    ENEMY enemies[] = { { {-100, -100} }, { { 100, 100 } } };
-    int enemy_count = 2;
+    vector<ENEMY*> enemies;
+    for (int i = 0; i < 10; i++) {
+        enemies.push_back(new ENEMY({ (float)i * 20, (float)i * 20 }));
+    }
 
     ////////////////////////////////////////
 
@@ -104,8 +106,8 @@ int main()
                 current_time = al_get_time();
 
                 ////// tmp
-                for (int i = 0; i < enemy_count; i++)
-                    enemies[i].update();
+                for (auto e : enemies)
+                    e->update();
                 //////
 
                 player->update();
@@ -147,8 +149,8 @@ int main()
             }
 
             ////// tmp
-            for (int i = 0; i < enemy_count; i++)
-                enemies[i].draw();
+            for (auto e : enemies)
+                e->draw();
             //////
 
             player->draw();
@@ -174,6 +176,13 @@ int main()
 
     delete player;
     delete camera;
+
+    //////////////// tmp
+
+    for_each(enemies.begin(), enemies.end(), [](ENEMY* e) { delete e; });
+    enemies.clear();
+
+    ////////////////////////////////
 
 	return 0;
 }

@@ -30,8 +30,13 @@ void COLLISION_MANAGER::fixed_update() {
 		for (auto coll_2 : collidables) {
 			if (coll == coll_2)
 				continue;
+			if ((coll->collision_mask & coll_2->collision_layer) == 0)
+				continue;
+			if (!coll->can_collide_with(coll_2))
+				continue;
+
 			if (coll->collides_with(coll_2)) {
-				// std::cout << " collision between " << coll << " and " << coll_2 << '\n';
+				coll->collide_with(coll_2);
 			}
 		}
 	}

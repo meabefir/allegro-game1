@@ -12,4 +12,6 @@ public:
 	ENEMY(const vector2<float> _pos);
 	void update();
 	void draw();
+
+	void collide_with(COLLIDABLE*);
 };
